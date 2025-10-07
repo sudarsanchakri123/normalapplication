@@ -20,4 +20,4 @@ jobs:
                depth: 1
                branch: 'main'
                owner: 'sudarsanchakri123'
-               repository: 'normal app'
+               repository: 'normalapplication'
