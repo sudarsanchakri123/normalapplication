@@ -9,3 +9,15 @@ on:
 jobs:
     build:
         runs-on: ubuntu-latest
+
+        steps:
+         - name: checkout my repo
+           uses: actions/checkout@v5
+
+         - name: Clone GuillaumeFalourd/poc-github-actions PUBLIC repository
+           uses: GuillaumeFalourd/clone-github-repo-action@v2.3
+           with:
+               depth: 1
+               branch: 'main'
+               owner: 'sudarsanchakri123'
+               repository: 'normal app'
